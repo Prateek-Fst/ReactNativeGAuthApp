@@ -14,7 +14,7 @@ import {AuthContext} from '../AuthContext';
 
 GoogleSignin.configure({
   webClientId:
-    '942477024975-b7e8sdtr4qb2t8rerbldq4600thkthuo.apps.googleusercontent.com',
+    'your_web_id',
   // iosClientId:
   //   'yourID',
   scopes: ['profile', 'email'],
