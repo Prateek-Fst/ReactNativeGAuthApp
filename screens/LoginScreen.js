@@ -19,7 +19,7 @@ console.log(Config.GOOGLE_WEB_CLIENT_ID);
 
 GoogleSignin.configure({
   webClientId:
-    '',
+    'your_web_id',
   // iosClientId:
   //   'yourID',
   scopes: ['profile', 'email'],
