@@ -11,10 +11,15 @@ import {GoogleSignin} from '@react-native-google-signin/google-signin';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {AuthContext} from '../AuthContext';
+import Config from 'react-native-config';
+
+console.log(Config.API_URL);
+console.log(Config.GOOGLE_WEB_CLIENT_ID);
+
 
 GoogleSignin.configure({
   webClientId:
-    '942477024975-b7e8sdtr4qb2t8rerbldq4600thkthuo.apps.googleusercontent.com',
+    '',
   // iosClientId:
   //   'yourID',
   scopes: ['profile', 'email'],
