@@ -1,49 +1,53 @@
-# 🚀 React Native Google Auth App Setup Guide
 
-Welcome to your **React Native Google Authentication** app! This guide will help you run and customize your project smoothly.
+# React Native G Auth Application
 
----
 
-## 🧠 Prerequisites
+## Step 1: Start the Metro Server
 
-Ensure you have:
-- React Native CLI environment set up
-- Android Studio / Xcode configured
-- An emulator or device connected
+To start Metro, run the following command from the _root_ of your React Native project:
 
----
-
-## 📦 Step 1: Start Metro Bundler
-
-Metro is the JavaScript bundler that powers React Native.
-
-In the root directory of your project, run:
-
-```bash
-# Using npm
+bash
+# using npm
 npm start
 
 # OR using Yarn
 yarn start
-```
 
-## STEP 2 LAUNCH APP
 
-## For Android
-```
+## Step 2: Start your Application
+
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+
+### For Android
+
+bash
+# using npm
 npm run android
-# or
+
+# OR using Yarn
 yarn android
 
-```
 
-## For IOS
+### For iOS
 
-```
+bash
+# using npm
 npm run ios
-# or
+
+# OR using Yarn
 yarn ios
-```
 
 
 
+## Step 3: Modifying your App
+
+Now that you have successfully run the app, let's modify it.
+
+1. Open App.tsx in your text editor of choice and edit some lines.
+
+
+You've successfully run and modified your React Native App.
+
+# Troubleshooting
+
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
